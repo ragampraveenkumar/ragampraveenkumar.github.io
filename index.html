@@ -1,24 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ragam Praveen Kumar</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ragam Praveen Kumar — a focused personal tech website for DevOps, cloud, and automation." />
+  <title>Ragam Praveen Kumar | DevOps Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>Ragam Praveen Kumar</h1>
-    <h2>DevOps Engineer</h2>
-    <p>
-        Welcome to my personal website.
-    </p>
-    <h3>Skills</h3>
-    <ul>
-        <li>AWS</li>
-        <li>Kubernetes</li>
-        <li>Docker</li>
-        <li>Terraform</li>
-        <li>Jenkins</li>
-        <li>Linux</li>
-    </ul>
-    <h3>Links</h3>
-    <a href="https://linkedin.com">LinkedIn</a>
+  <header class="topbar">
+    <div class="shell nav">
+      <a class="brand" href="#home">Ragam Praveen Kumar</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="shell main-wrap">
+    <section class="hero-card">
+      <p class="hero-title">Cloud - SRE - DevOps Engineer</p>
+      <p class="lead">I work across cloud infrastructure, platform engineering, and automation to build reliable systems and improve operational efficiency.</p>
+      <p class="lead">My focus includes infrastructure provisioning, containerized platforms, deployment automation, monitoring and observability, and engineering workflows that improve stability, scalability, and delivery.</p>
+      <p class="lead">I enjoy solving challenges through automation, troubleshooting, operational improvements, and reliability-focused engineering.</p>
+    </section>
+
+    <section class="grid-2">
+      <article id="about" class="panel">
+        <p class="section-label">Welcome</p>
+        <p>Hi and welcome — glad you’re here.</p>
+        <p>This space gives a quick look into my professional journey, experience, interests, and the kind of work I enjoy building across cloud, infrastructure, and modern engineering practices.</p>
+        <p>Feel free to explore and learn more about what I do.</p>
+      </article>
+
+      <article id="skills" class="panel">
+        <p class="section-label">Core Skills &amp; Technologies</p>
+
+        <p>Cloud Infrastructure</p>
+        <p>Platform Engineering</p>
+        <p>Containerization &amp; Orchestration</p>
+        <p>Infrastructure Automation</p>
+        <p>Deployment Workflows</p>
+        <p>Monitoring &amp; Observability</p>
+        <p>Reliability Engineering</p>
+        <p>Incident Detection &amp; Troubleshooting</p>
+        <p>Automation &amp; Scripting</p>
+        <p>Version Control &amp; Collaboration</p>
+        <p>Operational Excellence</p>
+        <p>System Optimization</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="shell footer-note">© <span id="year"></span> Ragam Praveen Kumar</footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
